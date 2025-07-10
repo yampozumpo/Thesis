@@ -1,0 +1,7 @@
+Support,Pattern
+45,['negoti_take_place']
+19,['negoti_lead_agreement']
+17,"['negoti_take_place', 'negoti_take_place']"
+14,['meet_take_place']
+13,['process_take_place']
+12,['schedul_take_place']

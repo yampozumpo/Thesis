@@ -1,0 +1,68 @@
+(1) International and Regional Actors
+international_ngo
+regional_organization
+international_organization
+peace_operation
+foreign_government
+language_organization
+
+(2) National State Actors
+national_committee
+local_government
+government
+president
+political_party
+government_forces
+police
+
+(3) Local and Informal Actors
+local_ngo
+armed_group
+community_leaders
+religious_leaders
+religious_any
+traditional_leaders
+local_committee
+
+Drop
+company
+women
+individual
+
+Phase in the Peace Process
+
+prenego
+nego
+nego_implement
+
+(1) Cessation of Hostilities and Security
+nego_ceasefire
+nego_ddr
+monitor_peacekeeping
+
+(2) Political Power and Governance
+nego_agreement
+nego_power-sharing
+election
+
+(3) Post-Conflict Justice and Social Healing
+reconciliation
+amnesty
+
+(4) Resource Management and Economic Issues
+nego_land
+nego_water
+nego_cattle
+nego_movement
+
+(5) External Involvement and Military Presence
+nego_end_support
+nego_withdrawal_success
+
+(6) Unspecified
+nego_unspecified
+
+Drop
+nego_continue
+nego_end
+border [we could make border a seventh category, but perhaps there are not so many observations]

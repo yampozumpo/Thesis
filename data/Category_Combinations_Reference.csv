@@ -1,0 +1,73 @@
+Actor_Category,Phase_Category,Goal_Category,global_category_id
+International and Regional Actors,prenego,Cessation of Hostilities and Security,1
+International and Regional Actors,prenego,Political Power and Governance,2
+International and Regional Actors,prenego,Post-Conflict Justice and Social Healing,3
+International and Regional Actors,prenego,Resource Management and Economic Issues,4
+International and Regional Actors,prenego,External Involvement and Military Presence,5
+International and Regional Actors,prenego,Unspecified,6
+International and Regional Actors,nego,Cessation of Hostilities and Security,7
+International and Regional Actors,nego,Political Power and Governance,8
+International and Regional Actors,nego,Post-Conflict Justice and Social Healing,9
+International and Regional Actors,nego,Resource Management and Economic Issues,10
+International and Regional Actors,nego,External Involvement and Military Presence,11
+International and Regional Actors,nego,Unspecified,12
+International and Regional Actors,nego_implement,Cessation of Hostilities and Security,13
+International and Regional Actors,nego_implement,Political Power and Governance,14
+International and Regional Actors,nego_implement,Post-Conflict Justice and Social Healing,15
+International and Regional Actors,nego_implement,Resource Management and Economic Issues,16
+International and Regional Actors,nego_implement,External Involvement and Military Presence,17
+International and Regional Actors,nego_implement,Unspecified,18
+National State Actors,prenego,Cessation of Hostilities and Security,19
+National State Actors,prenego,Political Power and Governance,20
+National State Actors,prenego,Post-Conflict Justice and Social Healing,21
+National State Actors,prenego,Resource Management and Economic Issues,22
+National State Actors,prenego,External Involvement and Military Presence,23
+National State Actors,prenego,Unspecified,24
+National State Actors,nego,Cessation of Hostilities and Security,25
+National State Actors,nego,Political Power and Governance,26
+National State Actors,nego,Post-Conflict Justice and Social Healing,27
+National State Actors,nego,Resource Management and Economic Issues,28
+National State Actors,nego,External Involvement and Military Presence,29
+National State Actors,nego,Unspecified,30
+National State Actors,nego_implement,Cessation of Hostilities and Security,31
+National State Actors,nego_implement,Political Power and Governance,32
+National State Actors,nego_implement,Post-Conflict Justice and Social Healing,33
+National State Actors,nego_implement,Resource Management and Economic Issues,34
+National State Actors,nego_implement,External Involvement and Military Presence,35
+National State Actors,nego_implement,Unspecified,36
+Local and Informal Actors,prenego,Cessation of Hostilities and Security,37
+Local and Informal Actors,prenego,Political Power and Governance,38
+Local and Informal Actors,prenego,Post-Conflict Justice and Social Healing,39
+Local and Informal Actors,prenego,Resource Management and Economic Issues,40
+Local and Informal Actors,prenego,External Involvement and Military Presence,41
+Local and Informal Actors,prenego,Unspecified,42
+Local and Informal Actors,nego,Cessation of Hostilities and Security,43
+Local and Informal Actors,nego,Political Power and Governance,44
+Local and Informal Actors,nego,Post-Conflict Justice and Social Healing,45
+Local and Informal Actors,nego,Resource Management and Economic Issues,46
+Local and Informal Actors,nego,External Involvement and Military Presence,47
+Local and Informal Actors,nego,Unspecified,48
+Local and Informal Actors,nego_implement,Cessation of Hostilities and Security,49
+Local and Informal Actors,nego_implement,Political Power and Governance,50
+Local and Informal Actors,nego_implement,Post-Conflict Justice and Social Healing,51
+Local and Informal Actors,nego_implement,Resource Management and Economic Issues,52
+Local and Informal Actors,nego_implement,External Involvement and Military Presence,53
+Local and Informal Actors,nego_implement,Unspecified,54
+Non-Mediated,prenego,Cessation of Hostilities and Security,55
+Non-Mediated,prenego,Political Power and Governance,56
+Non-Mediated,prenego,Post-Conflict Justice and Social Healing,57
+Non-Mediated,prenego,Resource Management and Economic Issues,58
+Non-Mediated,prenego,External Involvement and Military Presence,59
+Non-Mediated,prenego,Unspecified,60
+Non-Mediated,nego,Cessation of Hostilities and Security,61
+Non-Mediated,nego,Political Power and Governance,62
+Non-Mediated,nego,Post-Conflict Justice and Social Healing,63
+Non-Mediated,nego,Resource Management and Economic Issues,64
+Non-Mediated,nego,External Involvement and Military Presence,65
+Non-Mediated,nego,Unspecified,66
+Non-Mediated,nego_implement,Cessation of Hostilities and Security,67
+Non-Mediated,nego_implement,Political Power and Governance,68
+Non-Mediated,nego_implement,Post-Conflict Justice and Social Healing,69
+Non-Mediated,nego_implement,Resource Management and Economic Issues,70
+Non-Mediated,nego_implement,External Involvement and Military Presence,71
+Non-Mediated,nego_implement,Unspecified,72
