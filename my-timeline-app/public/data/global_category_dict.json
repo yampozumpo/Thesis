@@ -1,0 +1,362 @@
+{
+  "1": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "2": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "3": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "4": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "5": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "6": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Unspecified"
+  },
+  "7": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "8": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "9": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "10": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "11": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "12": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Unspecified"
+  },
+  "13": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "14": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "15": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "16": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "17": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "18": {
+    "Category_Actors": "International and Regional Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Unspecified"
+  },
+  "19": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "20": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "21": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "22": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "23": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "24": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Unspecified"
+  },
+  "25": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "26": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "27": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "28": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "29": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "30": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Unspecified"
+  },
+  "31": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "32": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "33": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "34": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "35": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "36": {
+    "Category_Actors": "National State Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Unspecified"
+  },
+  "37": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "38": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "39": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "40": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "41": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "42": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Unspecified"
+  },
+  "43": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "44": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "45": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "46": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "47": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "48": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego",
+    "Category_Goal": "Unspecified"
+  },
+  "49": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "50": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "51": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "52": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "53": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "54": {
+    "Category_Actors": "Local and Informal Actors",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Unspecified"
+  },
+  "55": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "56": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "57": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "58": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "59": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "prenego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "60": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "prenego",
+    "Category_Goal": "Unspecified"
+  },
+  "61": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "62": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "63": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "64": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "65": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "66": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego",
+    "Category_Goal": "Unspecified"
+  },
+  "67": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Cessation of Hostilities and Security"
+  },
+  "68": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Political Power and Governance"
+  },
+  "69": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Post-Conflict Justice and Social Healing"
+  },
+  "70": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Resource Management and Economic Issues"
+  },
+  "71": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "External Involvement and Military Presence"
+  },
+  "72": {
+    "Category_Actors": "Non-Mediated",
+    "Category_Phases": "nego_implement",
+    "Category_Goal": "Unspecified"
+  }
+}

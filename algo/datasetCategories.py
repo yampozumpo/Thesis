@@ -1,6 +1,7 @@
 ## This script categorizes data from a CSV file into different categories based on predefined sets of actors, phases, and goals.
 
 import pandas as pd
+import json
 
 categoriesActors = {
     'Category': ['International and Regional Actors', 'National State Actors', 'Local and Informal Actors', 'Drop'],
@@ -61,9 +62,7 @@ def main():
 
     # Categorize based on Actors
     df = categorize_data_actors(df, categoriesActors)
-
     df = categorize_data_phases(df, categoriesPhases)
-    # Categorize based on Goal
     df = categorize_data_goal(df, categoriesGoal)
 
     # Exclude "Drop" from each category list
@@ -73,6 +72,9 @@ def main():
 
     df['global_category'] = [[] for _ in range(len(df))]
     counter = 1
+
+    # Build the mapping dictionary
+    global_category_dict = {}
 
     for category1 in categoriesActorsFiltered:
         for category2 in categoriesPhasesFiltered:
@@ -87,14 +89,22 @@ def main():
                 df.loc[mask, 'global_category'] = df.loc[mask, 'global_category'].apply(
                     lambda x: x + [counter]
                 )
+                # Add to dictionary
+                global_category_dict[counter] = {
+                    "Category_Actors": category1,
+                    "Category_Phases": category2,
+                    "Category_Goal": category3
+                }
                 counter += 1
+
     # Save the selected data to a new CSV file
-    # Select only the desired columns
     columns_to_save = ['dyad_id', 'Category_Actors', 'Category_Goal', 'Category_Phases', 'global_category']
     df_selected = df[columns_to_save]
-
     df_selected.to_csv('./data/categories.csv', index=False)
-    # Save only the 'Category_Actors' column to a new CSV file
+
+    # Save the mapping dictionary as JSON
+    with open('./data/global_category_dict.json', 'w', encoding='utf-8') as f:
+        json.dump(global_category_dict, f, ensure_ascii=False, indent=2)
 
 if __name__ == "__main__":
     main()

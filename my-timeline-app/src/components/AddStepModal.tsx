@@ -1,72 +1,104 @@
-// AddStepModal.tsx
 import React, { useState } from "react";
 import "../style/addStepModal.css";
+
+export interface NegotiationStep {
+  actorCategory: string;
+  phaseCategory: string;
+  themeCategory: string;
+  date: string;
+  description: string;
+}
 
 interface AddStepModalProps {
   onClose: () => void;
   onSubmit: (step: NegotiationStep) => void;
 }
 
-export interface NegotiationStep {
-  date: string;
-  description: string;
-  category: string;
-}
+// Category lists for each dropdown
+const actorCategories = [
+  "International and Regional Actors",
+  "National State Actors",
+  "Local and Informal Actors",
+  "Non-Mediated"
+];
 
-const categories = {
-  "International and Regional Actors": [
-    "international_ngo", "regional_organization", "international_organization",
-    "peace_operation", "foreign_government", "language_organization"
-  ],
-  "National State Actors": [
-    "national_committee", "local_government", "government",
-    "president", "political_party", "government_forces", "police"
-  ],
-  "Local and Informal Actors": [
-    "local_ngo", "armed_group", "community_leaders",
-    "religious_leaders", "religious_any", "traditional_leaders",
-    "local_committee"
-  ],
-  "Drop": ["company", "women", "individual"]
-};
+const phaseCategories = [
+  "prenego",
+  "nego",
+  "nego_implement"
+];
+
+const themeCategories = [
+  "Cessation of Hostilities and Security",
+  "Political Power and Governance",
+  "Post-Conflict Justice and Social Healing",
+  "Resource Management and Economic Issues",
+  "External Involvement and Military Presence",
+  "Unspecified"
+];
 
 const AddStepModal: React.FC<AddStepModalProps> = ({ onClose, onSubmit }) => {
   const [date, setDate] = useState("");
   const [description, setDescription] = useState("");
-  const [category, setCategory] = useState("");
+  const [actorCategory, setActorCategory] = useState("***");
+  const [phaseCategory, setPhaseCategory] = useState("***");
+  const [themeCategory, setThemeCategory] = useState("***");
 
   const handleSubmit = () => {
-    if (date && description && category) {
-      onSubmit({ date, description, category });
-      onClose();
-    }
+    onSubmit({
+      date,
+      description,
+      actorCategory,
+      phaseCategory,
+      themeCategory,
+    });
+    onClose();
   };
 
   return (
     <div className="modal-overlay">
       <div className="modal-content">
         <h2>Add Negotiation Step</h2>
-        <label>Date:</label>
-        <input type="date" value={date} onChange={(e) => setDate(e.target.value)} />
-
-        <label>Description:</label>
-        <textarea value={description} onChange={(e) => setDescription(e.target.value)} />
-
-        <label>Category:</label>
-        <select value={category} onChange={(e) => setCategory(e.target.value)}>
-          <option value="">Select a category</option>
-          {Object.entries(categories).map(([group, items]) => (
-            <optgroup key={group} label={group}>
-              {items.map((item) => (
+        <div className="modal-fields">
+          <div>
+            <label>Date:</label>
+            <input type="date" value={date} onChange={e => setDate(e.target.value)} />
+          </div>
+          <div>
+            <label>Description:</label>
+            <textarea value={description} onChange={e => setDescription(e.target.value)} />
+          </div>
+          <div>
+            <label>Actor Category:</label>
+            <select value={actorCategory} onChange={e => setActorCategory(e.target.value)}>
+              <option value="***">***</option>
+              {actorCategories.map(item => (
                 <option key={item} value={item}>{item}</option>
               ))}
-            </optgroup>
-          ))}
-        </select>
-
+            </select>
+          </div>
+          <div>
+            <label>Phase Category:</label>
+            <select value={phaseCategory} onChange={e => setPhaseCategory(e.target.value)}>
+              <option value="***">***</option>
+              {phaseCategories.map(item => (
+                <option key={item} value={item}>{item}</option>
+              ))}
+            </select>
+          </div>
+          <div>
+            <label>Theme Category:</label>
+            <select value={themeCategory} onChange={e => setThemeCategory(e.target.value)}>
+              <option value="***">***</option>
+              {themeCategories.map(item => (
+                <option key={item} value={item}>{item}</option>
+              ))}
+            </select>
+          </div>
+        </div>
         <div className="modal-buttons">
           <button onClick={onClose}>Cancel</button>
-          <button onClick={handleSubmit}>Add</button>
+          <button onClick={handleSubmit} style={{ background: "green", color: "white" }}>Add</button>
         </div>
       </div>
     </div>
